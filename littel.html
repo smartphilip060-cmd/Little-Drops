@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Little Drops empowers learners through technology education, coding programs, mentorship, and innovative technology products."
+    />
+    <title>Little Drops</title>
+    <style>
+      /* =========================
+   LITTLE DROPS STYLESHEET
+   ========================= */
+
+      /* RESET */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* BODY */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f7fa;
+        color: #333;
+        line-height: 1.8;
+      }
+
+      /* HEADER */
+      header {
+        background: linear-gradient(to right, #0d47a1, #1976d2);
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+      }
+
+      header img {
+        width: 120px;
+        height: auto;
+        margin-bottom: 15px;
+      }
+
+      header h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+      }
+
+      header h2 {
+        font-size: 1.2rem;
+        font-weight: normal;
+        max-width: 800px;
+        margin: auto;
+      }
+
+      header img{
+        width: 350px;    
+        height: auto;
+        display: block;
+        margin-left: 0 auto;
+        margin-right: 0 auto 20px;
+      }
+        
+
+      /* NAVIGATION */
+      nav {
+        background-color: #d9e192;
+        padding: 15px;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        box-shadow: 0 2px 8px rgba(112, 10, 10, 0.1);
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #0d49a3;
+        font-weight: bold;
+        margin: 0 15px;
+        transition: 0.3s;
+      }
+
+      nav a:hover {
+        color: #1976d2;
+      }
+
+      /* MAIN CONTAINER */
+      main {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+      }
+
+      /* SECTIONS */
+      .section {
+        background-color: white;
+        margin: 30px 0;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+      }
+
+      /* HEADINGS */
+      h3 {
+        color: #0d47a1;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-size: 1.8rem;
+      }
+
+      h4 {
+        color: #1976d2;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      /* PARAGRAPHS */
+      p {
+        margin-bottom: 15px;
+        text-align: justify;
+      }
+
+      /* LISTS */
+      ul,
+      ol {
+        margin-left: 30px;
+        margin-bottom: 20px;
+      }
+
+      li {
+        margin-bottom: 8px;
+      }
+
+      /* FAQ */
+      dl {
+        margin-top: 20px;
+      }
+
+      dt {
+        font-weight: bold;
+        color: #0d47a1;
+        margin-top: 15px;
+      }
+
+      dd {
+        margin-left: 20px;
+        margin-top: 5px;
+      }
+
+      /* LINKS */
+      a {
+        color: #1976d2;
+      }
+
+      a:hover {
+        color: #0d47a1;
+      }
+
+      /* CONTACT SECTION */
+      #contact p {
+        margin-bottom: 20px;
+      }
+
+      /* JOIN SECTION */
+      #join {
+        text-align: center;
+      }
+
+      #join p:last-child {
+        font-weight: bold;
+        color: #0d47a1;
+        font-size: 1.1rem;
+      }
+
+      /* TECHNOLOGY PRODUCTS LIST */
+      #technology-products ul {
+        background-color: #f8f9fb;
+        padding: 20px 40px;
+        border-left: 5px solid #1976d2;
+        border-radius: 5px;
+      }
+
+      /* ABOUT SECTION LIST */
+      #about ol {
+        background-color: #f8f9fb;
+        padding: 20px 40px;
+        border-left: 5px solid #1976d2;
+        border-radius: 5px;
+      }
+
+      /* TESTIMONIALS */
+      #testimonials ol {
+        background-color: #f8f9fb;
+        padding: 20px 40px;
+        border-left: 5px solid #0d47a1;
+        border-radius: 5px;
+      }
+
+      /* FOOTER */
+      footer {
+        background-color: #0d47a1;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+      }
+
+      /* HOVER EFFECT */
+      .section:hover {
+        transform: translateY(-3px);
+        transition: 0.3s;
+      }
+
+      /* RESPONSIVE DESIGN */
+      @media (max-width: 768px) {
+        header h1 {
+          font-size: 2rem;
+        }
+
+        header h2 {
+          font-size: 1rem;
+        }
+
+        nav a {
+          display: block;
+          margin: 10px 0;
+        }
+
+        .section {
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <img src="../img/zenova.jpeg" alt="Little Drops Official Logo" />
+
+      <h1>Little Drops</h1>
+
+      <h2>
+        Empowering the Next Generation Through Technology, Innovation, and
+        Opportunity.
+      </h2>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#technology-products">Technology Products</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#join">Join</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+      <!-- HOME -->
+      <div id="home" class="section">
+        <p>
+          At Little Drops, we believe that every great achievement starts with a
+          small step. Our mission is to equip aspiring developers, students,
+          entrepreneurs, and technology enthusiasts with the knowledge, skills,
+          and tools they need to succeed in today's digital world.
+        </p>
+
+        <p>
+          Whether you're learning to build websites from scratch, exploring
+          software development, or searching for quality tech devices to power
+          your journey, Little Drops is your trusted partner for growth and
+          innovation.
+        </p>
+        
+        <h3>Our Mission</h3>
+
+        <p>
+          Our mission is to inspire innovation by making technology education
+          accessible to everyone...
+        </p>
+
+        <p>
+          Every course we teach and every product we recommend is selected with
+          one goal in mind...
+        </p>
+
+        <h3>Our Vision</h3>
+
+        <p>
+          <em>
+            We envision a future where anyone, regardless of background or
+            experience...
+          </em>
+        </p>
+
+        <h3>Our Core Values</h3>
+
+        <ul>
+          <li>Excellence in Education and Service</li>
+          <li>Innovation Through Continuous Learning</li>
+          <li>Integrity</li>
+          <li>Accessibility</li>
+          <li>Collaboration</li>
+          <li>Commitment to Lifelong Learning</li>
+        </ul>
+
+        <h3>Mentorship and Career Support</h3>
+
+        <p>
+          <em> Learning goes beyond watching tutorials. At Little Drops... </em>
+        </p>
+      </div>
+
+      <!-- ABOUT -->
+      <div id="about" class="section">
+        <h3>About Little Drops</h3>
+
+        <p>
+          <em>
+            Little Drops is an educational and technology-focused platform
+            dedicated to transforming lives...
+          </em>
+        </p>
+
+        <p>
+          Our vision is to make technology education simple, affordable, and
+          impactful...
+        </p>
+
+        <h4>Our Coding Programs</h4>
+
+        <p>
+          Our coding programs are designed for beginners and experienced
+          learners...
+        </p>
+
+        <ol>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Responsive Web Design</li>
+          <li>Frontend Development</li>
+          <li>Backend Development</li>
+          <li>Databases</li>
+          <li>API</li>
+          <li>Version Control</li>
+          <li>Deployment</li>
+        </ol>
+
+        <p>Students complete projects throughout their learning journey...</p>
+      </div>
+
+      <!-- TECHNOLOGY PRODUCTS -->
+      <div id="technology-products" class="section">
+        <h3>Technology Products</h3>
+
+        <p>
+          In addition to education, Little Drops offers technology products...
+        </p>
+
+        <h4>Our offerings may include:</h4>
+
+        <ul>
+          <li>Smartphones</li>
+          <li>Laptops</li>
+          <li>Desktop Computers</li>
+          <li>Tablets</li>
+          <li>Keyboards and Mice</li>
+          <li>Headphones</li>
+          <li>Storage Devices</li>
+          <li>Networking Accessories</li>
+          <li>Computer Peripherals</li>
+        </ul>
+
+        <h4>Featured Student Projects</h4>
+
+        <p>
+          We celebrate creativity by showcasing projects built by our
+          students...
+        </p>
+
+        <ul>
+          <li>Personal Portfolios</li>
+          <li>Business Websites</li>
+          <li>Landing Pages</li>
+          <li>E-commerce Interfaces</li>
+          <li>Dashboard Applications</li>
+          <li>Interactive Web Tools</li>
+        </ul>
+
+        <h3>Student Success Stories</h3>
+
+        <p>
+          Many learners begin with little or no experience and gradually build
+          skills...
+        </p>
+      </div>
+
+      <!-- TESTIMONIALS -->
+      <div id="testimonials" class="section">
+        <h3>Testimonials</h3>
+
+        <ol>
+          <li>The lessons were easy to follow...</li>
+          <li>The mentorship made a huge difference...</li>
+          <li>I gained practical skills...</li>
+        </ol>
+
+        <h3>Frequently Asked Questions</h3>
+
+        <dl>
+          <dt>Do I need prior coding experience?</dt>
+          <dd>
+            No. Our beginner-friendly programs are designed for learners
+            starting from scratch.
+          </dd>
+
+          <dt>Are the courses project-based?</dt>
+          <dd>Yes. Students build practical projects to reinforce learning.</dd>
+
+          <dt>Can I learn at my own pace?</dt>
+          <dd>Yes. Learning paths are flexible.</dd>
+
+          <dt>Do you offer support?</dt>
+          <dd>Yes. Mentorship and guidance are available.</dd>
+        </dl>
+      </div>
+
+      <!-- JOIN -->
+      <div id="join" class="section">
+        <h3>Join Our Community</h3>
+
+        <p>
+          Become part of a growing network of learners, developers, creators,
+          and innovators...
+        </p>
+
+        <p>
+          Whether your goal is to build websites, launch digital products, or
+          explore programming...
+        </p>
+
+        <p>
+          Start Learning Today • Explore Our Programs • Discover Tech Solutions
+        </p>
+      </div>
+
+      <!-- CONTACT -->
+      <div id="contact" class="section">
+        <h3>Contact Us</h3>
+
+        <p>
+          Email:
+          <a href="mailto:smartphilip64@gmail.com"> smartphilip64@gmail.com </a>
+        </p>
+
+        <p>
+          WhatsApp:
+          <a href="https://wa.me/2347069507961" target="_blank">
+            Chat on WhatsApp
+          </a>
+        </p>
+
+        <p>Business Hours: Monday – Friday, 9:00 AM – 6:00 PM</p>
+
+        <p>
+          Location:
+          <a
+            href="https://maps.google.com/?q=Plot+A/127+Iyiagu+Housing+Estate+Awka+Anambra+State+Nigeria"
+            target="_blank"
+          >
+            Awka, Anambra State, Nigeria
+          </a>
+        </p>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; 2026 Little Drops. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
